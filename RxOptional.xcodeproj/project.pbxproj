@@ -7,155 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26B1B3D21CDDCFA200A3A2BE /* RxOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B1B3D11CDDCFA200A3A2BE /* RxOptional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26B1B3F51CDDD3C200A3A2BE /* Driver+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B3EE1CDDD3C200A3A2BE /* Driver+Occupiable.swift */; };
-		26B1B3F61CDDD3C200A3A2BE /* Driver+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B3EF1CDDD3C200A3A2BE /* Driver+Optional.swift */; };
-		26B1B3F71CDDD3C200A3A2BE /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B3F01CDDD3C200A3A2BE /* Observable+Occupiable.swift */; };
-		26B1B3F81CDDD3C200A3A2BE /* Observable+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B3F11CDDD3C200A3A2BE /* Observable+Optional.swift */; };
-		26B1B3F91CDDD3C200A3A2BE /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B3F21CDDD3C200A3A2BE /* Occupiable.swift */; };
-		26B1B3FA1CDDD3C200A3A2BE /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B3F31CDDD3C200A3A2BE /* OptionalType.swift */; };
-		26B1B3FB1CDDD3C200A3A2BE /* RxOptionalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B3F41CDDD3C200A3A2BE /* RxOptionalError.swift */; };
-		26B1B3FE1CDDD3D300A3A2BE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B1B3FC1CDDD3D300A3A2BE /* RxCocoa.framework */; };
-		26B1B3FF1CDDD3D300A3A2BE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B1B3FD1CDDD3D300A3A2BE /* RxSwift.framework */; };
+		26B1B40E1CDDD80B00A3A2BE /* RxOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B1B40D1CDDD80B00A3A2BE /* RxOptional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B1B41C1CDDD85700A3A2BE /* Driver+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B4151CDDD85700A3A2BE /* Driver+Occupiable.swift */; };
+		26B1B41D1CDDD85700A3A2BE /* Driver+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B4161CDDD85700A3A2BE /* Driver+Optional.swift */; };
+		26B1B41E1CDDD85700A3A2BE /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B4171CDDD85700A3A2BE /* Observable+Occupiable.swift */; };
+		26B1B41F1CDDD85700A3A2BE /* Observable+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B4181CDDD85700A3A2BE /* Observable+Optional.swift */; };
+		26B1B4201CDDD85700A3A2BE /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B4191CDDD85700A3A2BE /* Occupiable.swift */; };
+		26B1B4211CDDD85700A3A2BE /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B41A1CDDD85700A3A2BE /* OptionalType.swift */; };
+		26B1B4221CDDD85700A3A2BE /* RxOptionalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1B41B1CDDD85700A3A2BE /* RxOptionalError.swift */; };
+		26B1B4261CDDD89E00A3A2BE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B1B4241CDDD89E00A3A2BE /* RxCocoa.framework */; };
+		26B1B4271CDDD89E00A3A2BE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B1B4251CDDD89E00A3A2BE /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26B1B3CE1CDDCFA200A3A2BE /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B1B3D11CDDCFA200A3A2BE /* RxOptional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxOptional.h; sourceTree = "<group>"; };
-		26B1B3D31CDDCFA200A3A2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26B1B3EE1CDDD3C200A3A2BE /* Driver+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Driver+Occupiable.swift"; sourceTree = "<group>"; };
-		26B1B3EF1CDDD3C200A3A2BE /* Driver+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Driver+Optional.swift"; sourceTree = "<group>"; };
-		26B1B3F01CDDD3C200A3A2BE /* Observable+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Occupiable.swift"; sourceTree = "<group>"; };
-		26B1B3F11CDDD3C200A3A2BE /* Observable+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Optional.swift"; sourceTree = "<group>"; };
-		26B1B3F21CDDD3C200A3A2BE /* Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Occupiable.swift; sourceTree = "<group>"; };
-		26B1B3F31CDDD3C200A3A2BE /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
-		26B1B3F41CDDD3C200A3A2BE /* RxOptionalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxOptionalError.swift; sourceTree = "<group>"; };
-		26B1B3FC1CDDD3D300A3A2BE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		26B1B3FD1CDDD3D300A3A2BE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		26B1B40A1CDDD80B00A3A2BE /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B1B40D1CDDD80B00A3A2BE /* RxOptional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxOptional.h; sourceTree = "<group>"; };
+		26B1B40F1CDDD80B00A3A2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B1B4151CDDD85700A3A2BE /* Driver+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+Occupiable.swift"; path = "Source/Driver+Occupiable.swift"; sourceTree = SOURCE_ROOT; };
+		26B1B4161CDDD85700A3A2BE /* Driver+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+Optional.swift"; path = "Source/Driver+Optional.swift"; sourceTree = SOURCE_ROOT; };
+		26B1B4171CDDD85700A3A2BE /* Observable+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Occupiable.swift"; path = "Source/Observable+Occupiable.swift"; sourceTree = SOURCE_ROOT; };
+		26B1B4181CDDD85700A3A2BE /* Observable+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Optional.swift"; path = "Source/Observable+Optional.swift"; sourceTree = SOURCE_ROOT; };
+		26B1B4191CDDD85700A3A2BE /* Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Occupiable.swift; path = Source/Occupiable.swift; sourceTree = SOURCE_ROOT; };
+		26B1B41A1CDDD85700A3A2BE /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionalType.swift; path = Source/OptionalType.swift; sourceTree = SOURCE_ROOT; };
+		26B1B41B1CDDD85700A3A2BE /* RxOptionalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxOptionalError.swift; path = Source/RxOptionalError.swift; sourceTree = SOURCE_ROOT; };
+		26B1B4241CDDD89E00A3A2BE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		26B1B4251CDDD89E00A3A2BE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26B1B3CA1CDDCFA200A3A2BE /* Frameworks */ = {
+		26B1B4061CDDD80B00A3A2BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B1B3FE1CDDD3D300A3A2BE /* RxCocoa.framework in Frameworks */,
-				26B1B3FF1CDDD3D300A3A2BE /* RxSwift.framework in Frameworks */,
+				26B1B4261CDDD89E00A3A2BE /* RxCocoa.framework in Frameworks */,
+				26B1B4271CDDD89E00A3A2BE /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26B1B3C41CDDCFA200A3A2BE = {
+		26B1B4001CDDD80B00A3A2BE = {
 			isa = PBXGroup;
 			children = (
-				26B1B3FC1CDDD3D300A3A2BE /* RxCocoa.framework */,
-				26B1B3FD1CDDD3D300A3A2BE /* RxSwift.framework */,
-				26B1B3D01CDDCFA200A3A2BE /* RxOptional */,
-				26B1B3CF1CDDCFA200A3A2BE /* Products */,
+				26B1B4241CDDD89E00A3A2BE /* RxCocoa.framework */,
+				26B1B4251CDDD89E00A3A2BE /* RxSwift.framework */,
+				26B1B40C1CDDD80B00A3A2BE /* RxOptional */,
+				26B1B40B1CDDD80B00A3A2BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		26B1B3CF1CDDCFA200A3A2BE /* Products */ = {
+		26B1B40B1CDDD80B00A3A2BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26B1B3CE1CDDCFA200A3A2BE /* RxOptional.framework */,
+				26B1B40A1CDDD80B00A3A2BE /* RxOptional.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26B1B3D01CDDCFA200A3A2BE /* RxOptional */ = {
+		26B1B40C1CDDD80B00A3A2BE /* RxOptional */ = {
 			isa = PBXGroup;
 			children = (
-				26B1B3ED1CDDD3C200A3A2BE /* Source */,
-				26B1B3D11CDDCFA200A3A2BE /* RxOptional.h */,
-				26B1B3D31CDDCFA200A3A2BE /* Info.plist */,
+				26B1B4151CDDD85700A3A2BE /* Driver+Occupiable.swift */,
+				26B1B4161CDDD85700A3A2BE /* Driver+Optional.swift */,
+				26B1B4171CDDD85700A3A2BE /* Observable+Occupiable.swift */,
+				26B1B4181CDDD85700A3A2BE /* Observable+Optional.swift */,
+				26B1B4191CDDD85700A3A2BE /* Occupiable.swift */,
+				26B1B41A1CDDD85700A3A2BE /* OptionalType.swift */,
+				26B1B41B1CDDD85700A3A2BE /* RxOptionalError.swift */,
+				26B1B40D1CDDD80B00A3A2BE /* RxOptional.h */,
+				26B1B40F1CDDD80B00A3A2BE /* Info.plist */,
 			);
-			name = RxOptional;
-			path = CarthageSupport;
+			path = RxOptional;
 			sourceTree = "<group>";
-		};
-		26B1B3ED1CDDD3C200A3A2BE /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				26B1B3EE1CDDD3C200A3A2BE /* Driver+Occupiable.swift */,
-				26B1B3EF1CDDD3C200A3A2BE /* Driver+Optional.swift */,
-				26B1B3F01CDDD3C200A3A2BE /* Observable+Occupiable.swift */,
-				26B1B3F11CDDD3C200A3A2BE /* Observable+Optional.swift */,
-				26B1B3F21CDDD3C200A3A2BE /* Occupiable.swift */,
-				26B1B3F31CDDD3C200A3A2BE /* OptionalType.swift */,
-				26B1B3F41CDDD3C200A3A2BE /* RxOptionalError.swift */,
-			);
-			path = Source;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26B1B3CB1CDDCFA200A3A2BE /* Headers */ = {
+		26B1B4071CDDD80B00A3A2BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B1B3D21CDDCFA200A3A2BE /* RxOptional.h in Headers */,
+				26B1B40E1CDDD80B00A3A2BE /* RxOptional.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		26B1B3CD1CDDCFA200A3A2BE /* RxOptional */ = {
+		26B1B4091CDDD80B00A3A2BE /* RxOptional */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26B1B3D61CDDCFA200A3A2BE /* Build configuration list for PBXNativeTarget "RxOptional" */;
+			buildConfigurationList = 26B1B4121CDDD80B00A3A2BE /* Build configuration list for PBXNativeTarget "RxOptional" */;
 			buildPhases = (
-				26B1B3C91CDDCFA200A3A2BE /* Sources */,
-				26B1B3CA1CDDCFA200A3A2BE /* Frameworks */,
-				26B1B3CB1CDDCFA200A3A2BE /* Headers */,
-				26B1B3CC1CDDCFA200A3A2BE /* Resources */,
-				26B1B3EC1CDDD10F00A3A2BE /* Run Script */,
+				26B1B4051CDDD80B00A3A2BE /* Sources */,
+				26B1B4061CDDD80B00A3A2BE /* Frameworks */,
+				26B1B4071CDDD80B00A3A2BE /* Headers */,
+				26B1B4081CDDD80B00A3A2BE /* Resources */,
+				26B1B4231CDDD85F00A3A2BE /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RxOptional;
-			productName = CarthageSupport;
-			productReference = 26B1B3CE1CDDCFA200A3A2BE /* RxOptional.framework */;
+			productName = RxOptional;
+			productReference = 26B1B40A1CDDD80B00A3A2BE /* RxOptional.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		26B1B3C51CDDCFA200A3A2BE /* Project object */ = {
+		26B1B4011CDDD80B00A3A2BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = DianQK;
 				TargetAttributes = {
-					26B1B3CD1CDDCFA200A3A2BE = {
+					26B1B4091CDDD80B00A3A2BE = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 26B1B3C81CDDCFA200A3A2BE /* Build configuration list for PBXProject "RxOptional" */;
+			buildConfigurationList = 26B1B4041CDDD80B00A3A2BE /* Build configuration list for PBXProject "RxOptional" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 26B1B3C41CDDCFA200A3A2BE;
-			productRefGroup = 26B1B3CF1CDDCFA200A3A2BE /* Products */;
+			mainGroup = 26B1B4001CDDD80B00A3A2BE;
+			productRefGroup = 26B1B40B1CDDD80B00A3A2BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26B1B3CD1CDDCFA200A3A2BE /* RxOptional */,
+				26B1B4091CDDD80B00A3A2BE /* RxOptional */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26B1B3CC1CDDCFA200A3A2BE /* Resources */ = {
+		26B1B4081CDDD80B00A3A2BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,7 +156,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26B1B3EC1CDDD10F00A3A2BE /* Run Script */ = {
+		26B1B4231CDDD85F00A3A2BE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -174,7 +165,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 			);
-			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,24 +174,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26B1B3C91CDDCFA200A3A2BE /* Sources */ = {
+		26B1B4051CDDD80B00A3A2BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B1B3F91CDDD3C200A3A2BE /* Occupiable.swift in Sources */,
-				26B1B3F71CDDD3C200A3A2BE /* Observable+Occupiable.swift in Sources */,
-				26B1B3F51CDDD3C200A3A2BE /* Driver+Occupiable.swift in Sources */,
-				26B1B3FA1CDDD3C200A3A2BE /* OptionalType.swift in Sources */,
-				26B1B3FB1CDDD3C200A3A2BE /* RxOptionalError.swift in Sources */,
-				26B1B3F81CDDD3C200A3A2BE /* Observable+Optional.swift in Sources */,
-				26B1B3F61CDDD3C200A3A2BE /* Driver+Optional.swift in Sources */,
+				26B1B4201CDDD85700A3A2BE /* Occupiable.swift in Sources */,
+				26B1B41E1CDDD85700A3A2BE /* Observable+Occupiable.swift in Sources */,
+				26B1B41C1CDDD85700A3A2BE /* Driver+Occupiable.swift in Sources */,
+				26B1B4211CDDD85700A3A2BE /* OptionalType.swift in Sources */,
+				26B1B4221CDDD85700A3A2BE /* RxOptionalError.swift in Sources */,
+				26B1B41F1CDDD85700A3A2BE /* Observable+Optional.swift in Sources */,
+				26B1B41D1CDDD85700A3A2BE /* Driver+Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		26B1B3D41CDDCFA200A3A2BE /* Debug */ = {
+		26B1B4101CDDD80B00A3A2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		26B1B3D51CDDCFA200A3A2BE /* Release */ = {
+		26B1B4111CDDD80B00A3A2BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,7 +282,7 @@
 			};
 			name = Release;
 		};
-		26B1B3D71CDDCFA200A3A2BE /* Debug */ = {
+		26B1B4131CDDD80B00A3A2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -304,9 +294,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = CarthageSupport/Info.plist;
+				INFOPLIST_FILE = RxOptional/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.dianqk.RxOptional;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		26B1B3D81CDDCFA200A3A2BE /* Release */ = {
+		26B1B4141CDDD80B00A3A2BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -327,9 +316,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = CarthageSupport/Info.plist;
+				INFOPLIST_FILE = RxOptional/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.dianqk.RxOptional;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -340,25 +328,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26B1B3C81CDDCFA200A3A2BE /* Build configuration list for PBXProject "RxOptional" */ = {
+		26B1B4041CDDD80B00A3A2BE /* Build configuration list for PBXProject "RxOptional" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26B1B3D41CDDCFA200A3A2BE /* Debug */,
-				26B1B3D51CDDCFA200A3A2BE /* Release */,
+				26B1B4101CDDD80B00A3A2BE /* Debug */,
+				26B1B4111CDDD80B00A3A2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26B1B3D61CDDCFA200A3A2BE /* Build configuration list for PBXNativeTarget "RxOptional" */ = {
+		26B1B4121CDDD80B00A3A2BE /* Build configuration list for PBXNativeTarget "RxOptional" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26B1B3D71CDDCFA200A3A2BE /* Debug */,
-				26B1B3D81CDDCFA200A3A2BE /* Release */,
+				26B1B4131CDDD80B00A3A2BE /* Debug */,
+				26B1B4141CDDD80B00A3A2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26B1B3C51CDDCFA200A3A2BE /* Project object */;
+	rootObject = 26B1B4011CDDD80B00A3A2BE /* Project object */;
 }

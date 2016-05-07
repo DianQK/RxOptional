@@ -16,7 +16,18 @@ public extension Occupiable {
 }
 
 extension String: Occupiable { }
-// I can't think of a way to combine these collection types. Suggestions welcomed!
-extension Array: Occupiable { }
-extension Dictionary: Occupiable { }
-extension Set: Occupiable { }
+//// I can't think of a way to combine these collection types. Suggestions welcomed!
+//extension Array: Occupiable { }
+//extension Dictionary: Occupiable { }
+//extension Set: Occupiable { }
+//extension CollectionType: Occupiable {
+//    public var isNotEmpty: Bool {
+//        return !isEmpty
+//    }
+//}
+
+extension CollectionType {
+    public var isNotEmpty: Bool {
+        return !isEmpty
+    }
+}

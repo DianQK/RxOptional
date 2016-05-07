@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/Qing/Documents/GitHub/RxOptional/CarthageSupport/RxOptional.xcodeproj">
+      location = "self:RxOptional.xcodeproj">
    </FileRef>
 </Workspace>
